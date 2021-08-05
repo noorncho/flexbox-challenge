@@ -3,22 +3,34 @@
     padding: 0;
 }
 nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background-color: black;
-    color: white;
-    list-style: none;
 }
 
 nav h3{
     background-color: green;
+    color:white;
 }
 
-nav  ul  li  a{
-    text-decoration: none;
+#links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#links li{
+    list-style-type: none;
+}
+#links a{
     color: white;
-    float: right;
+    text-decoration: none;
+    margin-left: 20px;
 }
 
-nav > ul > li > a:hover{
+nav a:hover{
     background-color: green;
     color: black;
 }
@@ -29,15 +41,15 @@ main{
 
 .left-panel{
     margin: 10px;
-    width: 600px;
+    width: 60%;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 section{
     list-style-position: inside;
     border: black solid 3px;
+    margin-bottom: 5px;
 }
 
 section ul{
@@ -47,6 +59,6 @@ section ul{
 .right-panel{
     margin: 10px;
     padding: 5px;
-    width: 300px;
+    width: 40%;
     border: black solid 3px;
 }
