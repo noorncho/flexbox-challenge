@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    color: white;
+    list-style: none;
+}
+
+nav h3{
+    background-color: green;
+}
+
+nav  ul  li  a{
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+
+nav > ul > li > a:hover{
+    background-color: green;
+    color: black;
+}
+
+main{
+    display: flex;
+}
+
+.left-panel{
+    margin: 10px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section{
+    list-style-position: inside;
+    border: black solid 3px;
+}
+
+section ul{
+    padding: 10px;
+}
+
+.right-panel{
+    margin: 10px;
+    padding: 5px;
+    width: 300px;
+    border: black solid 3px;
+}
